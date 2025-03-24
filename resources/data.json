@@ -1,0 +1,29 @@
+[
+  {
+    "cat": "phone",
+    "desc": "The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420\n processor and it comes with 3GB of RAM. The phone packs 32GB of \ninternal storage cannot be expanded. ",
+    "id": 1,
+    "img": "imgs/galaxy_s6.jpg",
+    "price": 360,
+    "title": "Samsung galaxy s6"
+  },
+  
+  {
+    "cat": "monitor",
+    "desc": "LED Cinema Display features a 27-inch glossy LED-backlit TFT \nactive-matrix LCD display with IPS technology and an optimum resolution \nof 2560x1440. It has a 178 degree horizontal and vertical viewing angle,\n a \"typical\" brightness of 375 cd/m2, contrast ratio of 1000:1, and a \n12 ms response time.",
+    "id": 10,
+    "img": "imgs/apple_cinema.jpg",
+    "price": 400,
+    "title": "Apple monitor 24"
+  },
+
+  {
+    "cat": "notebook",
+    "desc": "6th Generation Intel Core i7-6500U Dual-Core Processor 2.5 GHz (max \nboost speed up to 3.1GHz) 4MB L3 Cache, 8GB DDR4 1600 MHz, 1TB 5400 RPM \nHDD15.6 in Full HD LED-backlit touchscreen with Truelife (1920 x 1080), \n10-finger multi-touch support, Intel HD Graphics 520 with shared \ngraphics memory",
+    "id": 12,
+    "img": "imgs/dell.jpg",
+    "price": 700,
+    "title": "Dell i7 8gb"
+  }
+
+]
