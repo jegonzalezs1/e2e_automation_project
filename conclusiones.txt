@@ -1,18 +1,18 @@
-# Conclusiones sobre las pruebas en demoblaze.com con Selenium
+Conclusiones sobre las pruebas en demoblaze.com con Selenium
 
-## Hallazgos
-1. **Flujo de compra completo:** Las pruebas confirmaron que el proceso de agregar productos al carrito y completar una compra se ejecuta exitosamente sin errores.
-2. **Interacción con elementos:** Botones, enlaces y ventanas emergentes fueron manejados correctamente, incluyendo el mensaje de "Product added".
-3. **Estabilidad del sitio:** Las funcionalidades principales del sitio son confiables y tienen tiempos de respuesta aceptables.
+Hallazgos
+1. Flujo de compra completo: Las pruebas confirmaron que el proceso de agregar productos al carrito y completar una compra se ejecuta exitosamente sin errores.
+2. Interacción con elementos: Botones, enlaces y ventanas emergentes fueron manejados correctamente, incluyendo el mensaje de "Product added".
+3. Estabilidad del sitio: Las funcionalidades principales del sitio son confiables y tienen tiempos de respuesta aceptables.
 
-## Retos Observados
-1. **Elementos dinámicos:** Algunos elementos requerían el uso de `WebDriverWait` para manejar tiempos de carga variables.
-2. **Ventanas emergentes:** Los mensajes de alerta fueron gestionados exitosamente, pero requieren cuidado para evitar interrupciones en el flujo.
+Retos Observados
+1. Elementos dinámicos: Algunos elementos requerían el uso de `WebDriverWait` para manejar tiempos de carga variables.
+2. Ventanas emergentes: Los mensajes de alerta fueron gestionados exitosamente, pero requieren cuidado para evitar interrupciones en el flujo.
 
-## Recomendaciones
-1. **Optimizar tiempos de espera:** Ajustar las esperas explícitas para mejorar el rendimiento en páginas con carga lenta.
-2. **Pruebas de escenarios negativos:** Implementar pruebas que evalúen formularios incompletos o productos no disponibles.
-3. **Compatibilidad:** Validar el sitio en diferentes navegadores para garantizar un comportamiento consistente.
+Recomendaciones
+1. Optimizar tiempos de espera: Ajustar las esperas explícitas para mejorar el rendimiento en páginas con carga lenta.
+2. Pruebas de escenarios negativos: Implementar pruebas que evalúen formularios incompletos o productos no disponibles.
+3. Compatibilidad:** Validar el sitio en diferentes navegadores para garantizar un comportamiento consistente.
 
-## Impacto
-Las pruebas demuestran que las funcionalidades clave de **demoblaze.com** son robustas, aunque se identificaron áreas para optimización en la interacción con elementos dinámicos y pruebas en casos extremos. 🚀
+Impacto
+Las pruebas demuestran que las funcionalidades clave de demoblaze.com son robustas, aunque se identificaron áreas para optimización en la interacción con elementos dinámicos y pruebas en casos extremos.
